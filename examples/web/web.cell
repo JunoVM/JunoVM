@@ -1,0 +1,4 @@
+# One static web server. juno up examples/web starts it; juno down examples/web removes it.
+publish = 39888:8080
+restart = on-failure
+argv = python3 -m http.server 8080 --bind 127.0.0.1

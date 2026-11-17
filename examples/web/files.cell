@@ -1,0 +1,2 @@
+# A second cell in the same directory, started and stopped together with web.
+argv = sleep 600
